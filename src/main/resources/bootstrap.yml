@@ -9,3 +9,7 @@ spring:
                 git:
                     uri: https://github.com/renato-castillo/config
                     default-label: main
+eureka:
+    client:
+        serviceUrl:
+            defaultZone: http://192.168.88.26:8761/eureka/
