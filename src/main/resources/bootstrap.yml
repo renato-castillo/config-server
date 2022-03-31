@@ -7,7 +7,7 @@ spring:
         config:
             server:
                 git:
-                    uri: https://github.com/renato-castillo/config
+                    uri: https://github.com/renato-castillo/config-repository.git
                     default-label: main
 eureka:
     client:
